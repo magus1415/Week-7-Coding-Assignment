@@ -14,16 +14,21 @@
         alt="Overwatch"> <br>
     <h1>Overview</h1>
     <!-- all pages links present on all pages -->
-    <a href="index.html">Home</a>
-    <a href="heroes.html">Heroes</a>
-    <a href="overview.html">Overview</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="heroes.html">Heroes</a>
+        <a href="overview.html">Overview</a>
+    </nav>
     <!-- Form that asks for first and last name -->
     <p>Please let me know if you'd like to join our game group. Fill out your name below.</p>
     <form>
-        <input type="text" placeholder="First Name" name="fName"><br>
-        <input type="text" placeholder="Last Name" name="lName"><br><br>
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text" placeholder="First Name" name="fName"><br>
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text" placeholder="Last Name" name="lName"><br><br>
         <!-- Radio button  -->
-        What role would you like to be: <br>
+        
+        <span>What role would you like to be: </span> <br>        
         <input type="radio" name="heroRole" value="Role"> Healer <br>
         <input type="radio" name="heroRole" value="Role"> Tank <br>
         <input type="radio" name="heroRole" value="Role"> Damage <br>
