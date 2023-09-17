@@ -5,43 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 </head>
 
-<body>
+<body class="content">
+
     <!-- Home page image and title -->
-    <img width="500px"
-        src="https://www.gamespot.com/a/uploads/original/1639/16394322/4043425-4041864-ovr_pk_betaannounce_pushgameplay_002.jpeg"
-        alt="Overwatch"> <br>
+    <div class="hero-image3">
+        <div class="hero-text3">
+        </div>
+    </div>
+
     <h1>Overview</h1>
+
     <!-- all pages links present on all pages -->
     <nav>
-        <a href="index.html">Home</a>
-        <a href="heroes.html">Heroes</a>
-        <a href="overview.html">Overview</a>
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heroes.html">Heroes</a></li>
+                <li><a href="overview.html">Overview</a></li>
+            </ul>
+        </header>
     </nav>
+
     <!-- Form that asks for first and last name -->
     <p>Please let me know if you'd like to join our game group. Fill out your name below.</p>
+
     <form>
-        <label for="firstName">First Name</label>
-        <input id="firstName" type="text" placeholder="First Name" name="fName"><br>
-        <label for="lastName">Last Name</label>
-        <input id="lastName" type="text" placeholder="Last Name" name="lName"><br><br>
+        <label for="firstName">First Name:</label>
+        <input class="input-font" type="text" placeholder="First Name" name="fName"><br>
+        <label for="lastName">Last Name:"</label>
+        <input class="input-font" id="lastName" type="text" placeholder="Last Name" name="lName"><br><br>
         <!-- Radio button  -->
-        
-        <span>What role would you like to be: </span> <br>        
+        <span>What role would you like to be: </span> <br>
         <input type="radio" name="heroRole" value="Role"> Healer <br>
         <input type="radio" name="heroRole" value="Role"> Tank <br>
         <input type="radio" name="heroRole" value="Role"> Damage <br>
-        <input type="submit" value="Submit">
-
+        <input class="button" type="submit" value="Submit">
     </form>
+
 </body>
 <!-- Foote with line and links back to all pages -->
+
 <hr>
-<footer>
-    <a href="index.html">Home</a>
-    <a href="heroes.html">Heroes</a>
-    <a href="overview.html">Overview</a>
-</footer>
+
+<nav>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="heroes.html">Heroes</a></li>
+            <li><a href="overview.html">Overview</a></li>
+        </ul>
+    </footer>
+</nav>
 
 </html>

@@ -5,42 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 </head>
 
-<body>
-    <!-- Home page title and pic -->
-    <img width="400px" src="https://pbs.twimg.com/media/DXWwyTtXUAA2emz?format=jpg&name=small"
-        alt="Picture of people playing games"> <br>
+<!-- This includes my content class slector from css, this applies to the body -->
+
+<body class="content">
+
+    <!-- This includes hero-image and hero-text class selector from css-->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Overwatch Gamers Unite!</h1>
+        </div>
+    </div>
+
     <h1>Home</h1>
-    <!-- all pages links present on all pages -->
+
     <nav>
-        <a href="index.html">Home</a>
-        <a href="heroes.html">Heroes</a>
-        <a href="overview.html">Overview</a>
+        <header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heroes.html">Heroes</a></li>
+                <li><a href="overview.html">Overview</a></li>
+            </ul>
+        </header>
     </nav>
 
-    <h3>Overwatch</h3>
-    <p>I've been playing Overwatch for over 8 years. Overwatch 2 just came out and my friends all play and have fun at
-        night. Weekends is when we play for hours. My friends are:
-        <!-- list of my friends -->
-    <ul>
-        <li>Chase</li>
-        <li>Jordi</li>
-        <li>Ryan</li>
-        <li>Halo</li>
-        <li>Shawn</li>
-    </ul>
-    We all participate in hours of playtime. If it weren't for adult responsiblities, I pretty sure some of us can go
-    semipro. Of course going pro takes double or even triple the amount of hours we play.
-    </p>
-
+    <!-- This includes image-background class selector from css-->
+    <div class="image-background">
+        <h2>About myself</h2>
+        <p>
+            I've been playing Overwatch for over 8 years. Overwatch 2 just came out and my friends all play and have fun
+            at night. Weekends is when we play for hours. My friends are
+            <span class="friend-names">Chase</span>,
+            <span class="friend-names">Jordi</span>,
+            <span class="friend-names">Ryan</span> and
+            <span class="friend-names">Shawn</span>. We all participate in hours of playtime. If it weren't for adult
+            responsibilities, I am pretty sure some of us can go semi-pro. Even going semi-pro takes double or even
+            triple the number of hours we play.
+        </p>
+    </div>
 </body>
 
 <hr>
-<footer>
-    <a href="index.html">Home</a>
-    <a href="heroes.html">Heroes</a>
-    <a href="overview.html">Overview</a>
-</footer>
+
+<nav>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="heroes.html">Heroes</a></li>
+            <li><a href="overview.html">Overview</a></li>
+        </ul>
+    </footer>
+</nav>
 
 </html>
